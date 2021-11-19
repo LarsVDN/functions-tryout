@@ -4,6 +4,6 @@ def tafel(x):
 
 def main():
     x = int(input("Van welk getal wilt u de tafel zien? "))
-    ta(x)
+    tafel(x)
 
 main()
