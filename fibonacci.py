@@ -1,3 +1,5 @@
+hoeveelRepeat = input("Hoeveel keer wil je de fibonacci reeks laten herhalen? ")
+
 def fibonacci(Position):
     previous = 1
     current = 0
@@ -7,4 +9,4 @@ def fibonacci(Position):
         # print(previous/current)
         previous = current
         current = next
-fibonacci(100)
+fibonacci(int(hoeveelRepeat))
