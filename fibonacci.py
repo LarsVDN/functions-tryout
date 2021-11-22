@@ -1,6 +1,6 @@
 def fibonacci(Position):
     previous = 1
-    current = 1
+    current = 0
     for i in range(Position):
         next = previous + current
         print(next)
