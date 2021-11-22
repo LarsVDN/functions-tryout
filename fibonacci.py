@@ -1,9 +1,10 @@
-def fuckFibonacci(Position):
+def fibonacci(Position):
     previous = 1
     current = 1
     for i in range(Position):
-        fibonacci = previous + current
-        print(fibonacci)
+        next = previous + current
+        print(next)
+        # print(previous/current)
         previous = current
-        current = fibonacci
-fuckFibonacci(100)
+        current = next
+fibonacci(100)
